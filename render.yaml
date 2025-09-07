@@ -1,7 +1,8 @@
 services:
   - type: web
-    name: PFBOT
+    name: pfbot
     env: python
-    pythonVersion: 3.11  
+    pythonVersion: 3.11
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py  
+    startCommand: python bot.py  # <- замени на имя твоего стартового файла
+    autoDeploy: true
