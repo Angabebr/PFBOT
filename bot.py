@@ -10,8 +10,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 API_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = 1040886421  # Замените на ID вашего администратора
-
+ADMIN_ID = 1040886421  
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=API_TOKEN)
